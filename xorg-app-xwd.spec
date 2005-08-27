@@ -1,4 +1,4 @@
-# $Rev: 3428 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3428 $, $Date: 2005-08-27 17:42:48 $
 #
 Summary:	xwd application
 Summary(pl):	Aplikacja xwd
@@ -15,7 +15,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/xwd-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
