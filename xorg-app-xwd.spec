@@ -1,5 +1,5 @@
 Summary:	xwd application
-Summary(pl.UTF-8):   Aplikacja xwd
+Summary(pl.UTF-8):	Aplikacja xwd
 Name:		xorg-app-xwd
 Version:	1.0.1
 Release:	1
