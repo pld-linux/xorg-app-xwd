@@ -1,5 +1,5 @@
 Summary:	xwd application
-Summary(pl):	Aplikacja xwd
+Summary(pl.UTF-8):   Aplikacja xwd
 Name:		xorg-app-xwd
 Version:	1.0.1
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xwd application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xwd.
 
 %prep
