@@ -60,5 +60,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xwd
-%{_mandir}/man1/xwd.1x*
-%lang(pl) %{_mandir}/pl/man1/xwd.1x*
+%{_mandir}/man1/xwd.1*
+%lang(pl) %{_mandir}/pl/man1/xwd.1*
