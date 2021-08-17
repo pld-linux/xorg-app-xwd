@@ -1,12 +1,12 @@
 Summary:	xwd application - dump an image of an X window
 Summary(pl.UTF-8):	Aplikacja xwd - zrzut obrazu okna X
 Name:		xorg-app-xwd
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xwd-%{version}.tar.bz2
-# Source0-md5:	11794a8eba6d295a192a8975287fd947
+# Source0-md5:	f783a209f2e3fa13253cedb65eaf9cdb
 Source1:	xwd.1x.pl
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog README
+%doc COPYING ChangeLog README.md
 %attr(755,root,root) %{_bindir}/xwd
 %{_mandir}/man1/xwd.1*
 %lang(pl) %{_mandir}/pl/man1/xwd.1*
